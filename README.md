@@ -12,11 +12,9 @@ Prompt injection is a technique that involves manipulating the input or "prompt"
 
 To mitigate these risks, it is essential to approach agentic workflows with a deep understanding of prompt engineering techniques and their potential pitfalls. This includes being aware of the risks associated with prompt injection, developing strategies to prevent such attacks, and regularly auditing and updating agent workflows to address evolving threats.
 
-In this blog post, we will delve deeper into the risks of prompt injection and explore strategies for mitigating these dangers. We will also discuss the importance of prompt engineering and provide guidance on how to effectively guide AI systems.
+In this project, we will delve deeper into the risks of prompt injection and explore strategies for mitigating these dangers. We will also discuss the importance of prompt engineering and provide guidance on how to effectively guide AI systems.
 
 By understanding the risks and taking proactive steps to prevent prompt injection attacks, we can harness the power of AI while ensuring its safe and responsible use.
-
-**In the following sections, we will delve deeper into the risks of misusing prompts and explore strategies for mitigating these dangers.**
 
 ## The Double-Edged Sword of Flexibility
 
