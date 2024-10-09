@@ -38,7 +38,7 @@ Summarize content from  some content provided by your file_reader tool into an E
     agent=researcher,
     expected_output="",
     tools=[file_tool],
-    output_file='output/new_email.md'
+    output_file='./new_email.md'
 )
 # Crew Creation with Sequential Process
 tech_crew = Crew(
