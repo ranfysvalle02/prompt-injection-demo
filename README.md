@@ -47,6 +47,20 @@ Defending against prompt injection involves a combination of careful system desi
 
 4. **Regular Auditing:** Regularly auditing the prompts and responses of your AI system can help detect any attempts at prompt injection. This could involve manually reviewing a sample of prompts and responses, or using automated tools to detect suspicious activity.
 
+### **Prompt Engineering Techniques**
+
+To effectively guide AI systems, prompt engineers employ various techniques:
+
+* **Direct Instruction Prompting:** Providing clear and concise instructions to the AI.
+* **Few-Shot Prompting:** Providing a few examples to illustrate the desired output.
+* **Chain-of-Thought Prompting:** Guiding the AI through a step-by-step reasoning process.
+* **Iterative Refinement Prompting:** Improving the output through multiple iterations.
+* **Role-Based Prompting:** Assigning the AI a specific role to influence its responses.
+* **Multi-Turn Dialogue Prompting:** Enabling the AI to engage in conversations.
+* **Scenario-Based Prompting:** Presenting hypothetical scenarios to test the AI's capabilities.
+* **Reflexive Prompting:** Having the AI evaluate its own output.
+* **Context Augmentation Prompting:** Providing additional information to enhance the AI's understanding.
+
 # Prompt Engineering 101
 
 ## 1. Direct Instruction Prompting
