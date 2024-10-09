@@ -1,5 +1,8 @@
 **Prompt Injection: The Hidden Danger Lurking Within AI**
 
+![](https://learnprompting.org/docs/assets/jailbreak/prompt_injection.png)
+__Image Credit to https://learnprompting.org/docs/prompt_hacking/injection__
+
 In today's world, artificial intelligence (AI) is rapidly transforming industries and reshaping our daily lives. From content creation to customer service, AI agents are becoming increasingly sophisticated and capable of performing complex tasks autonomously. However, with this newfound power comes a hidden danger: prompt injection.
 
 Prompt injection is a technique that involves manipulating the input or "prompt" given to an AI system, potentially leading to a wide range of undesirable outcomes. For instance, an attacker might craft a prompt that tricks an AI into revealing sensitive information, executing harmful commands, or generating misleading content.
