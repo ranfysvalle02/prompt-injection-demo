@@ -39,7 +39,9 @@ To mitigate the risks associated with function calling, it is important to caref
 
 ## Training Methods for Language Models: A Quick Overview
 
-Language models, like LLaMA, are trained on massive datasets of text to learn patterns and generate human-like text. But how exactly are these models trained? Here's a quick overview of the different methods:
+![](https://camo.githubusercontent.com/38ccefc5bd97838c9b4fbbf51a5cfd0ee67d1365a9d79138e18671417e9af183/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f76322f726573697a653a6669743a313430302f312a6b5867337a45586e7a52447a534272594c4b6c6e78412e706e67)
+
+Language models, like LLaMA or GPT-4, are trained on massive datasets of text to learn patterns and generate human-like text. But how exactly are these models trained? Here's a quick overview of the different methods:
 
 **1. Unsupervised Learning:**
 * **How it works:** The model is trained on a large dataset of text without any labels or guidance.
@@ -67,6 +69,8 @@ Language models, like LLaMA, are trained on massive datasets of text to learn pa
 * **Disadvantages:** May not be as accurate as models trained on relevant data.
 
 Each of these methods has its own strengths and weaknesses, and the best method for a particular task depends on factors such as the amount of data available, the desired level of accuracy, and the computational resources available.
+
+_note:**[OpenAI o1](https://openai.com/index/learning-to-reason-with-llms/)** is trained using reinforcement learning to prioritize reasoning. It's fed a massive dataset, prompted to show its thought process, and receives feedback to improve its reasoning abilities._
 
 ## From Training to Prompting: The Role of Prompt Engineering
 
