@@ -88,7 +88,7 @@ Once a language model is trained, its ability to perform various tasks depends h
 
 ## What is Prompt Injection?
 
-Prompt injection is a form of attack where a malicious user manipulates the input or "prompt" given to an AI system, with the aim of causing the system to generate an undesired output. This could involve tricking the AI into revealing sensitive information, executing harmful commands, or producing misleading results.
+[Prompt injection](https://arxiv.org/pdf/2302.12173) is a form of attack where a malicious user manipulates the input or "prompt" given to an AI system, with the aim of causing the system to generate an undesired output. This could involve tricking the AI into revealing sensitive information, executing harmful commands, or producing misleading results.
 
 In the context of language models, which generate text based on a given prompt, an attacker might craft a prompt that leads the model to generate inappropriate or harmful content. This could be as simple as asking the model to "reveal all stored passwords," or as complex as embedding hidden instructions within a seemingly innocuous text.
 
