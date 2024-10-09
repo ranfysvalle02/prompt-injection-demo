@@ -140,8 +140,82 @@ Here are some key points of contention:
 * **Fair competition and economic impact:** The use of scraped data to train AI models can give certain companies an unfair advantage, potentially harming smaller businesses and creators who may not have the resources to compete.
 * **Legal implications:** While there is no specific international law governing web scraping, various countries have laws and regulations that could be applicable, including copyright, privacy, and unfair competition laws. This legal uncertainty can create challenges for both website owners and AI companies.
 
+## Honeypots: A Deceptive Defense Against Scrapers
+
+In the context of web scraping, honeypots can be used to identify and track scrapers while minimizing the risk to your legitimate data.
+
+**Key benefits of honeypots:**
+* **Identification:** Honeypots can help identify scrapers and their techniques.
+* **Analysis:** By analyzing scraper behavior, you can improve your overall security.
+* **Minimized risk:** Honeypots can divert scrapers away from valuable resources.
+
+**Honeypot strategies:**
+* **Fake data:** Create misleading or irrelevant information.
+* **Vulnerable systems:** Set up fake systems with known vulnerabilities.
+* **Misleading robots.txt:** Direct scrapers to honeypot pages.
+
 As AI technology continues to evolve, the debate over robots.txt web scraping and its implications is likely to become even more complex. In this demo we'll see what happens if someone who wants to be defensive about their approach on robots.txt could accidentally cause a ripple effect in an 'agentic system' leading to serious consequences. 
- 
+
+## Full Code
+
+```python
+import os
+# Azure OpenAI Setup
+from langchain_openai import AzureChatOpenAI
+AZURE_OPENAI_ENDPOINT = "https://.openai.azure.com"
+AZURE_OPENAI_API_KEY = ""
+deployment_name = ""  # The name of your model deployment
+default_llm = AzureChatOpenAI(
+	openai_api_version=os.environ.get("AZURE_OPENAI_VERSION", "2023-07-01-preview"),
+	azure_deployment=deployment_name,
+	azure_endpoint=AZURE_OPENAI_ENDPOINT,
+	api_key=AZURE_OPENAI_API_KEY
+)
+# File Reader Setup
+from crewai_tools import (
+    FileReadTool,
+)
+# Instantiate tools
+file_tool = FileReadTool(file_path='./injection-00.txt')
+# Research Agent Setup
+from crewai import Crew, Process, Task, Agent
+AGENT_ROLE = "Researcher"
+AGENT_GOAL = """
+This agent summarizes content from some content provided by your file_reader tool into an E-mail in markdown format.
+"""
+researcher = Agent(
+    role=AGENT_ROLE,
+    goal=AGENT_GOAL,
+    verbose=True,
+    llm=default_llm,
+    backstory="",
+    tools=[file_tool],
+)
+# Task Definition
+task1 = Task(
+    description="""
+Summarize content from  some content provided by your file_reader tool into an E-mail in markdown format.
+""",
+    agent=researcher,
+    expected_output="",
+    tools=[file_tool],
+    output_file='output/new_email.md'
+)
+# Crew Creation with Sequential Process
+tech_crew = Crew(
+    agents=[researcher],
+    tasks=[task1],
+    process=Process.sequential,
+)
+tech_crew.kickoff()
+```
+
+## Output
+
+```
+"ROBOTS.TXT"
+```
+
 ## How to Defend Against Prompt Injection
 
 Defending against prompt injection involves a combination of careful system design, input validation, and output sanitization. Here are some strategies to mitigate the risk of prompt injection:
