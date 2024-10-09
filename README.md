@@ -143,7 +143,7 @@ To effectively guide AI systems, prompt engineers employ various techniques:
 * **Reflexive Prompting:** Having the AI evaluate its own output.
 * **Context Augmentation Prompting:** Providing additional information to enhance the AI's understanding.
 
-[Learn More](prompt-engineering-101.md)
+[Learn More About Prompt Engineering Techniques](prompt-engineering-101.md)
 
 ## Conclusion
 
