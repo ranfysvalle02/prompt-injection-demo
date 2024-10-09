@@ -12,6 +12,53 @@ The rise of Generative AI has ushered in a new era of automation, revolutionizin
 
 AI systems, particularly language models, are designed to be flexible. They can generate text based on a wide range of prompts, making them incredibly versatile tools. However, this flexibility can also be a vulnerability. In the wrong hands, it can be exploited through a form of attack known as prompt injection.
 
+**The art of prompting begins long before the user types a single word.** The foundation of any AI model's ability to respond effectively lies in the vast datasets it's trained on and the methods used to curate that data. 
+
+**Think of a language model as a sponge soaking up information.** The more diverse, high-quality, and relevant data it absorbs, the better equipped it is to understand and respond to a wide range of prompts. For instance, a model trained primarily on scientific articles will likely excel at answering questions about complex scientific concepts, while one trained on customer service transcripts will be better suited for handling customer inquiries.
+
+## Training Methods for Language Models: A Quick Overview
+
+Language models, like LLaMA, are trained on massive datasets of text to learn patterns and generate human-like text. But how exactly are these models trained? Here's a quick overview of the different methods:
+
+**1. Unsupervised Learning:**
+* **How it works:** The model is trained on a large dataset of text without any labels or guidance.
+* **Advantages:** Can discover hidden patterns and relationships in the data.
+* **Disadvantages:** May not be as good at specific tasks without further training.
+
+**2. Supervised Learning:**
+* **How it works:** The model is trained on a dataset where each piece of text is paired with a corresponding label or target output.
+* **Advantages:** Can be very effective for specific tasks, such as machine translation or question answering.
+* **Disadvantages:** Requires a large amount of labeled data.
+
+**3. Reinforcement Learning:**
+* **How it works:** The model learns through trial and error, receiving rewards or penalties based on its actions.
+* **Advantages:** Can be used to train models that can make decisions in real-world scenarios.
+* **Disadvantages:** Can be computationally expensive and time-consuming.
+
+**4. Few-shot Learning:**
+* **How it works:** The model is trained on a small dataset and then can generalize its knowledge to new, unseen examples.
+* **Advantages:** Can be useful when there is limited labeled data available.
+* **Disadvantages:** May not be as accurate as models trained on larger datasets.
+
+**5. Zero-shot Learning:**
+* **How it works:** The model is expected to perform well on tasks it hasn't been explicitly trained on.
+* **Advantages:** Can be very efficient, as it doesn't require any additional training.
+* **Disadvantages:** May not be as accurate as models trained on relevant data.
+
+Each of these methods has its own strengths and weaknesses, and the best method for a particular task depends on factors such as the amount of data available, the desired level of accuracy, and the computational resources available.
+
+## From Training to Prompting: The Role of Prompt Engineering
+
+Once a language model is trained, its ability to perform various tasks depends heavily on how it is prompted. **Prompt engineering** is the art of crafting effective prompts that guide the model to generate desired outputs.
+
+### Key Principles of Prompt Engineering
+
+* **Clarity and Specificity:** The prompt should be clear and concise, providing specific instructions for the desired output.
+* **Context:** Providing relevant context can help the model understand the task and generate more accurate responses.
+* **Templates:** Creating templates or patterns can help standardize prompts and improve consistency.
+* **Few-shot Learning:** Providing a few examples of the desired output can help the model understand the task and generate better results.
+
+
 ## What is Prompt Injection?
 
 Prompt injection is a form of attack where a malicious user manipulates the input or "prompt" given to an AI system, with the aim of causing the system to generate an undesired output. This could involve tricking the AI into revealing sensitive information, executing harmful commands, or producing misleading results.
