@@ -1,4 +1,13 @@
 # prompt-injection-demo
+
+The rise of Generative AI has ushered in a new era of automation, revolutionizing industries from content creation to customer service. **AI agents,** designed to perform tasks autonomously, are becoming increasingly sophisticated. However, the complexity of these agent workflows also introduces new risks.
+
+**One of the most significant dangers is the potential for unintended consequences arising from a lack of understanding of prompt injection and prompt engineering best practices.** Prompt injection, a technique that involves manipulating the input or "prompt" given to an AI system, can lead to a wide range of undesirable outcomes. For instance, an attacker might craft a prompt that tricks an agent into revealing sensitive information, executing harmful commands, or generating misleading content.
+
+**To mitigate these risks, it is essential to approach agentic workflows with a deep understanding of prompt engineering techniques and their potential pitfalls.** This includes being aware of the risks associated with prompt injection, developing strategies to prevent such attacks, and regularly auditing and updating agent workflows to address evolving threats.
+
+**In the following sections, we will delve deeper into the risks of misusing prompts and explore strategies for mitigating these dangers.**
+
 ## The Double-Edged Sword of Flexibility
 
 AI systems, particularly language models, are designed to be flexible. They can generate text based on a wide range of prompts, making them incredibly versatile tools. However, this flexibility can also be a vulnerability. In the wrong hands, it can be exploited through a form of attack known as prompt injection.
