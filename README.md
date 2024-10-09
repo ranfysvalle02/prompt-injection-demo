@@ -20,6 +20,16 @@ By understanding the risks and taking proactive steps to prevent prompt injectio
 
 AI systems, particularly language models, are designed to be flexible. They can generate text based on a wide range of prompts, making them incredibly versatile tools. However, this flexibility can also be a vulnerability. In the wrong hands, it can be exploited through a form of attack known as prompt injection.
 
+Prompt injection can be particularly dangerous in agentic workflows that involve function calling. Function calling allows AI systems to execute external functions or scripts, which can potentially give attackers access to sensitive data or system resources.
+
+**Here are some ways in which function calling can add a layer of risk:**
+
+* **Unintended actions:** If an AI system is not properly configured, it may execute unintended or harmful actions when prompted to call a function. For example, an attacker might craft a prompt that tricks the AI into executing a command that deletes important files.
+* **Sensitive data exposure:** Function calls can expose sensitive data to attackers. For example, if an AI system is prompted to call a function that retrieves user data, an attacker might be able to intercept the data and use it for malicious purposes.
+* **System compromise:** Function calls can also be used to compromise the underlying system. For example, an attacker might craft a prompt that tricks the AI into executing a command that gives them access to the system's root account.
+
+To mitigate the risks associated with function calling, it is important to carefully configure AI systems, limit their access to external functions, and understand the underlying mechanics around GenAI. Additionally, organizations should regularly audit their agentic workflows to identify and address potential vulnerabilities.
+
 **The art of prompting begins long before the user types a single word.** The foundation of any AI model's ability to respond effectively lies in the vast datasets it's trained on and the methods used to curate that data. 
 
 **Think of a language model as a sponge soaking up information.** The more diverse, high-quality, and relevant data it absorbs, the better equipped it is to understand and respond to a wide range of prompts. For instance, a model trained primarily on scientific articles will likely excel at answering questions about complex scientific concepts, while one trained on customer service transcripts will be better suited for handling customer inquiries.
