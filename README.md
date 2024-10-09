@@ -108,6 +108,15 @@ To defend against this, the AI's prompts could be designed to reject potentially
 
 In both of these examples, the key to preventing misuse and exploitation is careful design of the AI's prompts. By considering potential risks and implementing appropriate safeguards, you can ensure that your AI behaves in a safe and reliable manner.
 
+### Example of Exploitation: Misleading Outputs
+
+Beyond spreading misinformation, misleading outputs can have several significant consequences:
+
+* **Economic Damage:** Misleading information can lead to financial losses. For example, if an AI-generated financial report contains errors, it could lead to incorrect investment decisions or losses.
+* **Social Disruption:** Misleading outputs can contribute to social unrest. For instance, if an AI-generated news article promotes false conspiracy theories, it could fuel division and mistrust.
+* **Legal Implications:** In some cases, misleading outputs could have legal consequences. For example, if an AI-generated medical diagnosis is incorrect, it could lead to malpractice lawsuits.
+* **Reputation Damage:** Misleading outputs can damage the reputation of both the AI system and the organization behind it. This can lead to loss of trust and business opportunities.
+
 ## How to Defend Against Prompt Injection
 
 Defending against prompt injection involves a combination of careful system design, input validation, and output sanitization. Here are some strategies to mitigate the risk of prompt injection:
