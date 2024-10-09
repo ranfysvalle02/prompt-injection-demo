@@ -1,4 +1,4 @@
-**Prompt Injection: The Hidden Danger Lurking Within AI**
+**Prompt Injection: Social Engineering Large Language Models**
 
 ![](https://learnprompting.org/docs/assets/jailbreak/prompt_injection.png)
 __Image Credit to https://learnprompting.org/docs/prompt_hacking/injection__
