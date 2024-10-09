@@ -21,6 +21,9 @@ By understanding the risks and taking proactive steps to prevent prompt injectio
 
 ## The Double-Edged Sword of Flexibility
 
+![](https://media.licdn.com/dms/image/v2/D4E12AQHrci-KOPlTaw/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1705099806486?e=1733961600&v=beta&t=vaKW_yjcgx-Cg41a01sZHoAbJYHErg8u_Cvp-vtmAt8)
+_Image credit to [Tackling LLM Vulnerabilities to Indirect Prompt Injection Attacks](https://www.linkedin.com/pulse/tackling-llm-vulnerabilities-indirect-prompt-injection-ashish-bhatia-evzje/)_
+
 AI systems, particularly language models, are designed to be flexible. They can generate text based on a wide range of prompts, making them incredibly versatile tools. However, this flexibility can also be a vulnerability. In the wrong hands, it can be exploited through a form of attack known as prompt injection.
 
 Prompt injection can be particularly dangerous in agentic workflows that involve function calling. Function calling allows AI systems to execute external functions or scripts, which can potentially give attackers access to sensitive data or system resources.
