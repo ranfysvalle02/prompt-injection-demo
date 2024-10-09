@@ -129,6 +129,19 @@ Beyond spreading misinformation, misleading outputs can have several significant
 * **Legal Implications:** In some cases, misleading outputs could have legal consequences. For example, if an AI-generated medical diagnosis is incorrect, it could lead to malpractice lawsuits.
 * **Reputation Damage:** Misleading outputs can damage the reputation of both the AI system and the organization behind it. This can lead to loss of trust and business opportunities.
 
+## Demo: robots.txt in the LLMOps world
+
+**There is significant controversy around robots.txt web scraping and generative AI.**
+
+Here are some key points of contention:
+
+* **Disregard for robots.txt:** Many AI companies, including large players like OpenAI, have been accused of ignoring robots.txt directives, which are meant to indicate which parts of a website a crawler can or cannot access. This raises concerns about intellectual property rights and the potential misuse of copyrighted content.
+* **Data privacy and ethics:** The scraping of large amounts of data for training AI models can raise privacy concerns, especially when sensitive information is involved. There are also ethical questions about the use of scraped data without proper attribution or consent.
+* **Fair competition and economic impact:** The use of scraped data to train AI models can give certain companies an unfair advantage, potentially harming smaller businesses and creators who may not have the resources to compete.
+* **Legal implications:** While there is no specific international law governing web scraping, various countries have laws and regulations that could be applicable, including copyright, privacy, and unfair competition laws. This legal uncertainty can create challenges for both website owners and AI companies.
+
+As AI technology continues to evolve, the debate over robots.txt web scraping and its implications is likely to become even more complex. In this demo we'll see what happens if someone who wants to be defensive about their approach on robots.txt could accidentally cause a ripple effect in an 'agentic system' leading to serious consequences. 
+ 
 ## How to Defend Against Prompt Injection
 
 Defending against prompt injection involves a combination of careful system design, input validation, and output sanitization. Here are some strategies to mitigate the risk of prompt injection:
