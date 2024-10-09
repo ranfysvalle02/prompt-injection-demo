@@ -129,7 +129,7 @@ Beyond spreading misinformation, misleading outputs can have several significant
 * **Legal Implications:** In some cases, misleading outputs could have legal consequences. For example, if an AI-generated medical diagnosis is incorrect, it could lead to malpractice lawsuits.
 * **Reputation Damage:** Misleading outputs can damage the reputation of both the AI system and the organization behind it. This can lead to loss of trust and business opportunities.
 
-## Demo: robots.txt in the LLMOps world
+## Demo: robots.txt, web scraping, and agentic workflow automation
 
 **There is significant controversy around robots.txt web scraping and generative AI.**
 
