@@ -1,6 +1,7 @@
 **Prompt Injection: Social Engineering Large Language Models**
 
-![](https://learnprompting.org/docs/assets/jailbreak/prompt_injection.png)
+![](https://learnprompting.org/_next/image?url=%2Fdocs%2Fassets%2Fjailbreak%2Fprompt_injection.webp&w=3840&q=75&dpl=dpl_7QeUqvFQUGgX69uoiBaciZkxif1b)
+
 __Image Credit to https://learnprompting.org/docs/prompt_hacking/injection__
 
 In today's world, artificial intelligence (AI) is rapidly transforming industries and reshaping our daily lives. From content creation to customer service, AI agents are becoming increasingly sophisticated and capable of performing complex tasks autonomously. However, with this newfound power comes a hidden danger: prompt injection.
